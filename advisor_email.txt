@@ -1,0 +1,20 @@
+<!--This is the template of the student email. Students recieve this email when they don't pass a test.-->
+
+<!--Header-->
+
+    <html>
+      <head></head>
+      <body>
+        <p>Dear {advisor_sal},
+           <p>This is an automatically generated message to let you know that {stu_first} {stu_last} recently took the Praxis and did not receive a sufficient score on at least one test. You'll find all of the relevant information below. If you have any questions let me know.
+        <ol>
+		
+<!--This is where the tests go -->
+		{tests}
+		
+<!--Footer-->
+	</ol>
+    Sincerely,<br>
+    Jacob Stoebel
+  </body>
+</html>		
